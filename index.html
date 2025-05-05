@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML PRACTICE</title>
+
+</head>
+<body>
+    <h1>HTML LISTS</h1>
+    <h2>Ordered List</h2>
+    <ol type ="i" start="5">
+        <li>Software engineering</li>
+        <li>Computer science</li>
+        <li>Information technology</li>
+        <li>Information systems</li>
+        <li>Computer engineering</li>
+        <li>Cyber security</li>
+        <li>Data science</li>
+        <li>artificial intelligence </li>
+        <li>web development</li>
+        <li>python</li>
+        <li>database</li>
+        <li>Startup building</li>
+    </ol>
+    <h3>Un-ordered List</h3>
+    <ul type=""disc" start="1">
+        <li>Nnamdi Azikiwe University (B.EHS)</li>
+        <li>MIVA open university (Bsc Software Engineering)</li>
+        <li>MIVA open unniversity (Master of Public Health)</li>
+        <li>International Univeristy of Applied Science Germany (Bsc Applied Artificial Intelligence)</li>
+    </ul>
+    <h3>Definition Lists</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd> 
+        <dt>PHP</dt>    
+        <dd>Hypertext Preprocessor</dd>
+        <dt>SQL</dt>
+        <dd>Structured Query Language</dd>
+        <dt>XML</dt>
+        <dd>Extensible Markup Language</dd>
+        <dt>JSON</dt>
+        <dd>JavaScript Object Notation</dd>
+        <dt>API</dt>
+        <dd>Application Programming Interface</dd>
+        <dt>UI</dt>
+        <dd>User Interface</dd>
+    </dl>
+    <h3>HTML IMAGES</h3>
+    <img src="Globe on a Book.webp" alt="Globe on a Book" width="300" height="200">
+    <img src="Think.jpg" alt="Think" width="350" height="250">
+    <h3>HTML TABLES</h3>
+    <table border="1" cellpadding="10" cellspacing="2" width="100%">
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>ADDRESS</th>
+            <th>PHONE NUMBER</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>25</td>
+            <td>123 Main St, Cityville</td>
+            <td>(555) 123-4567</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>30</td>
+            <td>456 Elm St, Townsville</td>
+            <td>(555) 987-6543</td>
+        </tr>
+        <tr>
+            <td>Sam Brown</td>
+            <td>22</td>
+            <td>789 Oak St, Villageville</td>
+            <td>(555) 555-1212</td>
+        </tr>
+        <tr>
+            <td>Lisa White</td>
+            <td>28</td>
+            <td>101 Pine St, Hamletville</td>
+            <td>(555) 444-3333</td> 
+        </tr>                   
+        <tr>
+            <td>John Doe</td>
+            <td>25</td>
+            <td>123 Main St, Anytown, USA</td>
+            <td>(555) 123-4567</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>30</td>
+            <td>456 Elm St, Somewhere, USA</td>
+            <td>(555) 987-6543</td>     
+        </tr>
+    </table>
+    <h3>HTML FORMS</h3>
+    <form action="Submit" method="">
+        <label for="name"> Name: </label><br><br>
+        <input type ="text" id="name" name="name" required><br><br>   
+        <label for ="email"> Email: </label><br><br>
+        <input type = "text" id ="email" name="email" required><br><br>
+        <label for="password"> Password: </label><br><br>
+        <input type="password" id="password" name="password" required><br><br>    
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" value="female">female
+        <input type="radio" id="gender" name="gender" value="Male"> Male <br><br>
+        <label for="hobbies">Hobbies:</label><br><br>
+        <input type="checkbox" id="hobbies" name="hobbies" value="reading"> Reading<br>
+        <input type="checkbox" id="hobbies" name="hobbies" value="writing"> Writing<br> 
+        <input type="checkbox" id="hobbies" name="hobbies" value="traveling"> Traveling<br>
+        <input type="checkbox" id="hobbies" name="hobbies" value="sports"> Sports<br>   
+        <input type="checkbox" id="hobbies" name="hobbies" value="music"> Music<br><br> 
+        <label for="country">Country:</label><br><br>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="Brazil">Brazil</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Italy">Italy</option>
+            <option value="Spain">Spain</option>
+            <option value="Russia">Russia</option>
+            <option value="Netherlands">Netherlands</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Nigeria">Nigeria</option>
+            </select>
+            <br><br>
+        <label for ="description"> Describe Your Self:</label>
+        <textarea id="description" name="description"></textarea>            </label>
+
+        <label for = "Submit"> Submit: </label><br><br>
+        <input type="submit" id="Submit" name="Submit" value="Submit"><br><br>   
+        
+     </form>
+
+     <details>
+        <summary>list of programming languages</summary>
+        <p>1. Python</p>
+        <p>2. Java</p>      
+        <p>3. C++</p>
+        <p>4. JavaScript</p>
+        <p>5. C#</p>
+        <p>6. PHP</p>
+        <p>7. Ruby</p>
+        <p>8. Swift</p>
+        <p>9. Go</p>
+        <p>10. Kotlin</p>
+        <p>11. R</p>
+        <p>12. TypeScript</p>
+        <p>13. Perl</p>
+        <p>14. Rust</p>
+        <p>15. Dart. etc </p>
+     </details>
+</body>
+</html>
